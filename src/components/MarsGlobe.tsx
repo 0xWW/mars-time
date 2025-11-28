@@ -28,7 +28,7 @@ export default function MarsGlobe() {
 
             <mesh
                 ref={meshRef}
-                scale={2.8}
+                scale={2}
                 onPointerOver={() => setHover(true)}
                 onPointerOut={() => setHover(false)}
             >
