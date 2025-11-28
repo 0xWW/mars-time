@@ -18,7 +18,7 @@ export default function Home() {
 
       {/* 3D Scene - Fixed background */}
       <div className="fixed top-0 left-0 w-full h-full z-0">
-        <Canvas camera={{ position: [0, 0, 5.0], fov: 45 }}>
+        <Canvas camera={{ position: [0, 0, 7.0], fov: 45 }}>
           <Suspense fallback={null}>
             <MarsGlobe />
             <OrbitControls
