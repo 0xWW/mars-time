@@ -1,6 +1,7 @@
 'use client';
 
 import React, { Suspense } from 'react';
+// Dummy change to verify git author
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Loader } from '@react-three/drei';
 import MarsGlobe from '@/components/MarsGlobe';
