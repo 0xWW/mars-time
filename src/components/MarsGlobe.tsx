@@ -58,3 +58,5 @@ export default function MarsGlobe() {
         </>
     );
 }
+
+useLoader.preload(TextureLoader, '/mars_1k.jpg');
